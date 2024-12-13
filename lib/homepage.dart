@@ -12,8 +12,10 @@ class _HomepageState extends State<Homepage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        body: Center(
-      child: Lottie.asset('assets/Animation - 1734023238139.json'),
-    ));
+      body: Center(
+        child: Lottie.asset('assets/Animation - 1734023238139.json'),
+      ),
+      backgroundColor: Colors.white,
+    );
   }
 }
